@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'xfont';
+    font-style: normal;
+    /*font-weight: 900;*/
+    font-display: block;
+    src: url("../fonts/xfont-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'txt';
+    font-style: normal;
+    /*font-weight: 900;*/
+    font-display: block;
+    src: url("../fonts/Vazir-Regular.ttf") format("truetype");
+}
+
+
+.xf{
+    font-family: 'xfont';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto; 
+}
+  
+
+
+.xf-robika::before{
+    content:"\e0020";
+}
+.xf-robika-alt::before {
+    content: "\E000";
+}
+
+.xf-bale::before {
+    content: "\E002";
+}
+.xf-bale-alt::before{
+    content:"\fe";
+}
+
+.xf-eitaa::before {
+    content: "\E004";
+}
+
+.xf-aparat::before{
+    content:"\111";
+}
+
+.xf-aparat-alt::before{
+    content:"\126";
+}
+
+.xf-basalam::before{
+    content:"\141";
+}
+
+.xf-basalam-alt::before{
+    content:"\142";
+}
+
+.xf-bluebank::before{
+    content:"\014a";
+}
+
+.xf-mellibank::before{
+    content:"\014b";
+}
+.xf-mellibank-alt::before{
+    content:"\152";
+}
+
+.xf-mellatbank::before{
+    content:"\153";
+}
+.xf-mellatbank-alt::before{
+    content:"\017f";
+}
+
+.xf-esam::before{
+    content:"\180";
+}
+
+.xf-gap::before{
+    content:"\181";
+}
+
+.xf-post::before{
+    content:"\182";
+}
+
+.xf-torob::before{
+    content:"\183";
+}
+
+.xf-divar::before{
+    content:"\184";
+}
+
+.xf-tipax::before{
+    content:"\185";
+}
+.xf-tipax-alt::before{
+    content:"\186";
+}
+
+.xf-tapsi::before{
+    content:"\187";
+}
+
+.xf-tapsi-alt::before{
+    content:"\188";
+}
+
+.xf-alopeyk::before{
+    content:"\187";
+}
+
+.xf-alopeyk-alt::before{
+    content:"\018a";
+}
+
+.xf-snapp::before{
+    content:"\018b";
+}
+
+.xf-snapp-alt::before{
+    content:"\018c";
+}
